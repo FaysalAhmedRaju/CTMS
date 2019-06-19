@@ -1,0 +1,24 @@
+table 
+{
+    border-collapse: collapse;
+}
+
+.pageBreak 
+{       
+	PAGE-BREAK-AFTER: always;
+}
+
+.pageBreakOff 
+{       
+	PAGE-BREAK-AFTER: avoid;
+}
+
+.pagewidth
+{
+	width:3000px;
+}
+
+.tbl_border
+{
+	border:1px solid black;
+}

@@ -1,0 +1,181 @@
+/*CSS Documents*/
+
+/*Div Style Start*/
+
+.div_MainContainer {
+	width:100%;
+	height:auto;
+	float:left;
+	background-color:#BCE7EE;
+}
+.div_SubContainer {
+	width:822px;
+	height:auto;
+	border:solid 1px #3271B8;
+	margin:auto;
+	overflow:hidden;
+}.div_Logo {
+	width:133px;
+	height:77px;
+	float:left;
+	margin:20px 0 0 60px;
+	background-image:url(../img/kmlogo.png);
+	background-repeat:no-repeat;
+}
+.div_Title {
+	width:550px;
+	height:65px;
+	float:left;
+	margin:20px 0 0 10px;
+}
+.div_SubInner {
+	width:782px;
+	height:auto;
+	float:left;
+}
+.div_Inner {
+	width:380px;
+	min-height:90px;
+	float:left;
+	background-color:#EDF8FE;
+}
+.div_Top {
+	width:380px;
+	height:auto;
+	float:left;
+	background-color:#1E4390;
+}
+.div_STop {
+	width:380px;
+	height:auto;
+	float:left;
+	margin-top:8px;
+}
+.div_Empty {
+	width:150px;
+	height:30px;
+	float:left;
+	margin:5px;
+	border:solid 1px #1E4390;
+}
+.div_Result {
+	width:150px;
+	height:30px;
+	float:left;
+	margin:5px;
+}
+
+/*Div Style End*/
+
+/*Font Style Start*/
+
+.font_Top {
+	color:#ffffff;
+	font-family:tahoma;
+	font-size:16px;
+	font-weight:bold;
+	text-indent:10px;
+	line-height:150%;
+}
+.font_Thread {
+	color:#1E4390;
+	font-family:verdana;
+	font-size:50px;
+	font-weight:bold;
+	text-align:center;
+}
+.font_Login {
+	color:#1E4390;
+	font-family:verdana;
+	font-size:16px;
+	font-weight:bold;
+	text-align:left;
+}
+.font_LogEx {
+	color:#6B7272;
+	font-family:verdana;
+	font-size:12px;
+	text-align:left;
+}
+.font_New {
+	color:#6B7272;
+	font-family:verdana;
+	font-size:12px;
+	text-align:left;
+	padding:3px;
+	background-color:#ffffff;
+}
+.font_help {
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+	line-height:200%;
+}
+.font_Title {
+	color:#0a8cc6;
+	font-family:verdana;
+	font-size:55px;
+	font-weight:bold;
+}
+
+/*Font Style End*/
+
+/*Extra Style Start*/
+
+.lnk_LogEx {
+	color:#6B7272;
+	font-family:verdana;
+	font-size:12px;
+	text-align:left;
+	text-decoration:none;
+	cursor:pointer;
+}
+.lnk_LogEx:hover {
+	color:#1E4390;
+	font-family:verdana;
+	font-size:12px;
+	text-align:left;
+	text-decoration:none;
+	cursor:pointer;
+}
+.lnk_New {
+	color:#6B7272;
+	font-family:verdana;
+	font-size:14px;
+	text-align:left;
+	padding:3px;
+	background-color:#ffffff;
+	text-decoration:none;
+	cursor:pointer;
+}
+.lnk_New:hover {
+	color:#1E4390;
+	font-family:verdana;
+	font-size:14px;
+	text-align:left;
+	padding:3px;
+	background-color:#ffffff;
+	text-decoration:none;
+	cursor:pointer;
+}		
+.help {
+	margin:20px;
+}
+.helpSec {
+	margin-right:20px;
+}	
+.support {
+	color:#1E4390;
+}
+.supSec {
+	color:#D43040;
+}
+.lnk_Log {
+	cursor:pointer;
+	text-decoration:none;
+}
+	
+/*Extra Style End*/
+
+

@@ -1,0 +1,16 @@
+
+.fixed {
+    position: absolute;
+    overflow: auto;
+    right: 0;
+	margin-top:20%;
+	
+}
+.pageBreak 
+{       
+	PAGE-BREAK-AFTER: always;
+}
+.pageBreakOff 
+{       
+	PAGE-BREAK-AFTER: avoid;
+}

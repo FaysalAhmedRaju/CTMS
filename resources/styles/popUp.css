@@ -1,0 +1,333 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  background-size: cover;
+  
+}
+
+.box {
+	
+  width: 100%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding-top: 20px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button_popup {
+  font-size: 1em;
+  padding: 10px;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button_popup:hover {
+  background: #000;
+  color: #fff;
+}
+
+.overlay {
+  height: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  visibility: hidden;
+  opacity: 0;
+ 
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 70%;
+  height: 70%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  overflow: scroll;
+  z-index:1000;
+  
+  
+}
+.popup .divtest{
+  margin-top: 60px;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-bottom: 60px;
+  font-size: 20px;
+  font-family: Tahoma, Arial, sans-serif;
+  line-height: 1;
+  
+ }
+ 
+ .divtest2{
+  background-color: #fff;
+  //width: 830px;
+  margin: auto;
+  font-size: 20px;
+  font-family: Tahoma, Arial, sans-serif;
+  line-height: 1;
+  margin-top: 10px;
+  padding-top: 0px; 
+  padding-left: 30px;   
+  padding-right: 30px;  
+  padding-bottom: 60px;  
+  
+  
+ }
+
+.popup h2 {
+  font-size: 0.8em;
+  margin-top: 10px;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+  text-align: justify;
+  line-height: 1.23529;
+  font-weight: bold;
+}
+.popup p {
+ 
+  margin-top: 10px;
+  color: #333;
+  text-align: justify;
+  font-family:   sans-serif;
+  line-height: 1.2;
+  font-size:14px;
+  color: black;
+  
+ }
+ .phn{
+ 
+  margin-top: 10px;
+  color: #333;
+  text-align: justify;
+  font-family:   sans-serif;
+  line-height: 1;
+  /*font-weight: 600;*/
+  font-size:15px;
+  color: black;
+   
+ }
+ .phn2{
+ 
+  margin-top: 10px;
+  color: #333;
+  text-align: justify;
+  font-family:   sans-serif;
+  /*font-weight: 600;*/
+  font-size:15px;
+  color: black;
+   
+ }
+ .phn3{
+ 
+  color: #333;
+  text-align: justify;
+  font-family:   sans-serif;
+  /*font-weight: 600;*/
+  font-size:15px;
+  color: black;
+  line-height: 1.8;
+   
+ }
+  .phn4{
+ 
+  margin-top: 10px;
+  color: #333;
+  text-align: justify;
+  font-family:   sans-serif;
+  font-weight: bold;
+  font-size:15px;
+  color: black;
+  line-height: 1.2;
+   
+ }
+  .phn5{
+ 
+  margin-top: 8px;
+  color: #333;
+  text-align: justify;
+  font-family:   sans-serif;
+  font-weight: bold;
+  font-size:14px;
+  color: black;
+  line-height: 1.2;
+   
+ }
+ .popup .font{
+ font-weight: bold;
+ }
+ .popup .tab{
+ padding-left:3em;
+ }
+  
+.popup .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  /*transition: all 200ms;*/
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #827B7B;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 100%;
+  }
+  .popup{
+    width: 90%;
+  }
+  .popup h2 {
+  font-size: 0.5em;
+  margin-top: 5px;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+  text-align: justify;
+}
+.popup p {
+  font-size: 0.5em;
+  margin-top: 10px;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+  text-align: justify;
+  font-weight: normal;
+  text-transform: uppercase;
+
+}
+.popup .divtest{
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+
+ }
+}
+@media screen and (max-width: 800px){
+ .divtest2{
+  width:83%;
+  margin-top: 50px;
+  padding-top: 20px; 
+  padding-left: 50px;   
+  padding-right: 50px;  
+  padding-bottom: 20px;  
+  
+  
+ }
+ .phn{
+  line-height: 2.1;
+  font-size:13px;
+ 
+ }
+ .phn2{
+  font-size:13px;
+  line-height: 1.8;
+}
+ .phn3{
+  font-size:13px;
+}
+ .phn4{
+  font-size:13px;
+}
+ .phn5{
+  font-size:13px;
+}
+
+}
+@media screen and (max-width: 400px){
+  .box{
+    width: 100%;
+  }
+  .popup{
+    width: 90%;
+  }
+  .popup h2 {
+  font-size: 0.5em;
+  margin-top: 5px;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+  text-align: justify;
+}
+.popup p {
+  font-size:12px;
+  margin-top: 12px;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+  text-align: justify;
+  font-weight: normal;
+  text-transform: uppercase;
+
+}
+.popup .divtest{
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+
+ }
+ 
+ .divtest2{
+  width:100%;
+  margin-top: 20px;
+  padding-top: 10px; 
+  padding-left: 5px;   
+  padding-right: 5px;  
+  padding-bottom: 20px;  
+  
+  
+ }
+  .phn{
+  line-height: 2.1;
+  font-size:12px;
+ 
+ }
+ .phn2{
+  font-size:12px;
+  line-height: 1.8;
+}
+ .phn3{
+  font-size:12px;
+}
+ .phn4{
+  font-size:12px;
+}
+ .phn4{
+  font-size:12px;
+}
+ .phn5{
+  font-size:12px;
+}
+.imgSign{
+ width:50%;
+}
+.content1 p {
+  display: none;
+}
+.content1:after {
+  content: 'Credit Card';
+}
+
+}

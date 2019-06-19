@@ -1,0 +1,50 @@
+table 
+{
+	border-collapse: collapse;
+}
+			 
+body 
+{
+	height: 842px;
+	width: 595px;
+	/* to centre page on screen*/
+	margin-left: auto;
+	margin-right: auto;
+	background: #E6E45A;
+}
+
+.pageBreak 
+{       
+	PAGE-BREAK-AFTER: always;
+}
+.pageBreakOff 
+{       
+	PAGE-BREAK-AFTER: avoid;
+}
+
+.leftborder
+{
+	border-left:1px solid black;
+}
+
+.bottomborder
+{
+	border-bottom:1px solid black;
+}
+
+.bottomleftborder
+{
+	border-bottom:1px solid black;
+	border-left:1px solid black;
+} 
+
+.bottomtopborder
+{
+	border-bottom:1px solid black;
+	border-top:1px solid black;
+}
+.cell
+{
+	border: 1px solid black;
+}
+

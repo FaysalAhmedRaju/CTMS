@@ -1,0 +1,29 @@
+table 
+{
+	border-collapse: collapse;
+}
+			 
+.tblBreak 
+{       
+	PAGE-BREAK-AFTER: always;	
+}		 
+
+.pageBreak 
+{       
+	PAGE-BREAK-AFTER: always;
+}
+
+.cartPortrait 
+{       
+	/*height: 1754px;*/
+	width: 200mm;
+    height: 148mm;
+}
+html,body{
+	width: 200mm;
+    height: 148mm;
+}
+.pageBreakOff 
+{       
+	PAGE-BREAK-AFTER: avoid;
+}
